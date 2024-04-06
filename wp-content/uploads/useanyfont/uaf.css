@@ -1,0 +1,13 @@
+				@font-face {
+					font-family: 'gudaramin';
+					src: url('/wp-content/uploads/useanyfont/450Gudaramin.woff2') format('woff2'),
+						url('/wp-content/uploads/useanyfont/450Gudaramin.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.gudaramin{font-family: 'gudaramin' !important;}
+
+						h1, h2, h3, h4, h5, h6, .entry-title, body.single-post .entry-title, body.page .entry-title, body.category .entry-title, .widget-title, .site-title, .site-description, body, p, blockquote, li, a, strong, b, em, .menu-header-menu-container li a, .menu-header-menu-container li span, #menu-header-menu li a, #menu-header-menu li span{
+					font-family: 'gudaramin' !important;
+				}
+		
