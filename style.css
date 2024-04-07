@@ -245,3 +245,66 @@ button.close {
   border-color: #54a754;
   background: #60c060;
 }
+
+.pp-img {
+  border: none;
+  max-width: 550px;
+  width: 98%;
+}
+
+/* .duk {
+  color: #de8b3d;
+  font-weight: bold;
+  font-size: 110px;
+  font-family: "Fredoka", sans-serif !important;
+  margin: 0;
+  padding: 0;
+} */
+
+#play,
+#pause {
+	float: left;
+	width: 40px;
+}
+#play:hover,
+#pause:hover {
+	cursor: pointer;
+}
+#pause {
+	display: none;
+}
+
+.ca-ca {
+  word-break: break-word;
+  font-size: 17px;
+  font-family: "Fredoka", sans-serif !important;
+}
+
+.duck-div{
+  position: relative;
+}
+
+.duck-pack{
+  position: absolute;
+  top: 55px;
+  right: 0;
+
+}
+
+@media screen and (max-width: 768px) {
+  .pp-img {
+    width: 50%;
+  }
+
+  .duk {
+    font-size: 40px;
+  }
+
+  .ca-ca {
+   font-size: 13px;
+  }
+
+  .duck-pack{
+    top: 15px;
+  }
+}

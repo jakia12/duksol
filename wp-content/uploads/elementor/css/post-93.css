@@ -56,8 +56,11 @@
   .aux-modern-heading-primary {
   font-size: 80px;
   font-weight: 800;
-  color: #ffffff;
+  color: #de8b3d;
   margin: 0px 0px 0px 0px;
+  font-family: "Fredoka", sans-serif !important;
+  margin: 0;
+  display: inline-block;
 }
 .elementor-93
   .elementor-element.elementor-element-e3b43e3
@@ -95,7 +98,7 @@
   .elementor-element.elementor-element-b9efc0f
   > .elementor-element-populated {
   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-  padding: 10px 10px 10px 10px;
+  /* padding: 10px 10px 10px 10px; */
 }
 .elementor-93
   .elementor-element.elementor-element-b9efc0f
@@ -104,9 +107,9 @@
   transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
 }
 .elementor-93 .elementor-element.elementor-element-8292448 img {
-  width: 70%;
+  /* width: 70%;
   border-radius: 25px 25px 25px 25px;
-  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5); */
 }
 .elementor-93 .elementor-element.elementor-element-ad4b0c2 {
   text-align: center;
@@ -430,3 +433,27 @@
     margin-top: 0px !important;
   }
 } /* End custom CSS */
+
+@media screen and (max-width: 768px) {
+  .elementor-93
+  .elementor-element.elementor-element-e3b43e3
+  .aux-modern-heading-primary {
+  font-size: 40px;
+  font-weight: 800;
+  color: #de8b3d;
+  margin: 0px 0px 0px 0px;
+  font-family: "Fredoka", sans-serif !important;
+  margin: 0;
+  display: inline-block;
+}
+
+.elementor-93
+  .elementor-element.elementor-element-e3b43e3
+  .aux-modern-heading-secondary {
+  font-size: 14px;
+  font-weight: 400;
+  color: #490e0e;
+  margin: 0px 0px 0px 0px;
+}
+
+}

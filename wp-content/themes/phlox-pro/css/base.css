@@ -157,7 +157,7 @@ a:focus { outline: none; }
 a.aux-disabled, a[href="#null"] { pointer-events: none; cursor: default; text-decoration: none; color: black; }
 
 /* paragraph ---------- */
-p { margin: 0 0 1em 0; }
+/* p { margin: 0 0 1em 0; } */
 p.red::-webkit-selection { background: #ffb7b7; }
 p.red::-moz-selection { background: #ffb7b7; }
 p.blue::-webkit-selection { background: #a8d1ff; }
